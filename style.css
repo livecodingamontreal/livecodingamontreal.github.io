@@ -59,7 +59,7 @@ margin : 0 0 15px;
 	height : 100%;
 	margin : 0 0 0 0;
 	border-top : 21px solid transparent;
-	width: 800px;
+	width: 500px;
 	margin-left: 270px;
 	text-align: left;
 }
@@ -68,7 +68,7 @@ margin-top : 20px;
 margin-left : 20px;
 }
 #content p {
-width : 800px;
+width : 500px;
 margin-top : 10px;
 }
 p {
@@ -91,7 +91,7 @@ margin : 0;
 padding : 0;
 }
 #img-container p {
-width : 800px;
+width : 500px;
 margin : 40;
 padding : 0 0 12px 0;
 }
