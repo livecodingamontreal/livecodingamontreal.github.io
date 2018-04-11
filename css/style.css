@@ -29,18 +29,30 @@ text-decoration : line-through;
 a img {
 border : medium none;
 }
+/*
 #menu {
 background: transparent;
 bottom : 0;
 height : 100%;
-text-align : left;
 left : 20px;
-margin-top : 120px;
+margin-top : 90px;
 overflow : auto;
 position : fixed;
 top : 0;
 width : 230px;
 }
+*/
+#menu {
+	text-align : right;
+    background-repeat: no-repeat;
+    /*background-image: url(http://work.darkcollar.com/images/dc-portback1.gif);*/
+    width: 320px;
+	background: transparent;
+	padding-top: 0px;
+	padding-left: 62px;
+	float: left;
+}
+
 #menu ul {
 list-style-image : none;
 list-style-position : outside;
@@ -55,14 +67,25 @@ margin : 0 0 15px;
 	font-weight: bold;*/
 	background-color: #ffffff;
 }
+
+/*
 #content {
 	height : 100%;
 	margin : 0 0 0 0;
-	border-top : 80px solid transparent;
+	border-top : 10px solid transparent;
 	width: 600px;
 	margin-left: 270px;
 	text-align: left;
 }
+*/
+
+#content {
+    margin: 0;
+	padding-top: 0px;
+	padding-left: 0px;
+	float: left;
+}
+
 		#contenu {
 			margin-top: 80px;
 			margin-left: 0px;
@@ -79,7 +102,7 @@ margin-left : 20px;
 }
 #content p {
 width : 550px;
-margin-top : 10px;
+margin-top : 0px;
 }
 p {
 margin : 0 0 0 0;
@@ -102,7 +125,7 @@ padding : 0;
 }
 #img-container p {
 width : 800px;
-margin : 40;
+margin : 0;
 padding : 0 0 12px 0;
 }
 #once {
@@ -117,8 +140,13 @@ display : block;
 }
 
 sub {
-	font-size : 11px;
+	font-size : 12px;
     background-color: rgba(255,255,255,0.5);
+}
+
+sub1 {
+	font-size : 12px;
+    background-color: rgba(212,255,0,0.8);
 }
 
 table { 
