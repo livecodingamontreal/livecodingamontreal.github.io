@@ -104,6 +104,7 @@ width : 550px;
 margin-top : 0px;
 }
 p {
+	text-align: justify;
 margin : 0 0 0 0;
 }
 h1 {

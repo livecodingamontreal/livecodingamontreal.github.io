@@ -15,8 +15,8 @@ function draw() {
   textAlign(CENTER, CENTER);
   
   var middle = sourceText.length / 2;
-  var left = middle - ((mouseY / 600) * middle);
-  var right = middle + ((mouseY / 600) * middle);
+  var left = middle - ((mouseY / 500) * middle);
+  var right = middle + ((mouseY / 400) * middle);
   textSize(random(11, 24));
    
     translate(0, 100);
@@ -24,22 +24,22 @@ function draw() {
     fill(random(100), 0, 200, random(200));
     text(
     sourceText.substring(left, right+1),
-    width/2, mouseY/5.35);
+    width/2, mouseY/4.35);
 
     fill(255, 255, 255, random(200));
     text(
     sourceText1.substring(left, right+1),
-    width/2.3, mouseX/5);
+    width/2.3, mouseX/4);
 push();
     fill(0, 0, 0, random(255, 60));
     text(
     sourceText2.substring(left, right+2),
-    width/1.7, mouseY/4.65);
+    width/1.7, mouseY/6.65);
 pop();
     fill(0, 40, 155, random(200));
     text(
     sourceText3.substring(left, right+2),
-    width/2.6, mouseX/4.35);
+    width/2.6, mouseX/6.35);
 }
 
 
