@@ -70,6 +70,7 @@ margin : 0 0 15px;
 
 
 #content {
+	overflow: scroll !important;
 	height : 100%;
 	margin : 0 0 0 0;
 	border-top : 10px solid transparent;
@@ -88,7 +89,9 @@ margin : 0 0 15px;
 }
 */
 		#contenu {
-			position: fixed;
+				overflow: scroll !important;
+
+			position: absolute;
 			z-index: 4;
 			margin-top: 0px;
 			margin-left: 0px;
